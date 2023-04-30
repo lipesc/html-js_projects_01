@@ -1,0 +1,90 @@
+:root {
+  --normal-font: 400;
+  --bold-font: 600;
+  --bolder-font: 900;
+  --primary-color: #0652dd;
+  --secondary-color: #ea2027;
+  --line-height: 1.7rem;
+  text-align: center;
+  --transition: 0.4s ease-in;
+}
+
+/* Smooth scroll effect */
+html {
+  align-items: center;
+  text-align: center;
+  scroll-behavior: smooth;
+}
+
+/* Resets */
+* {
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  transition: var(--transition);
+}
+
+body {
+  position: absolute;
+  margin: 20px;
+  background-color: #beb4c1;
+  font-family: 'Roboto', sans-serf;
+  text-align: center;
+  align-items: center;
+}
+form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+select {
+  cursor: pointer;
+
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 10px;
+  border: 100%;
+  background-color: #3f51b5;
+  color: #ffffff;
+  font: weight 50px;
+  border-radius: 10px;
+  width: 180px;
+  align-items: center;
+  margin: 10px;
+  text-align: center;
+}
+
+input[type='number'] {
+  border: 100%;
+  text-align: center;
+}
+input {
+  display: block;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  padding: 0;
+}
+.primary {
+  border-radius: 10px;
+  transition: 0.3s border-color;
+}
+.primary:hover {
+  border: 1px solid #aaa;
+}
+
+.secondary {
+  background-color: #fafafa;
+  border: 0;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  transition: 0.3s box-shadow;
+}
+.secondary:hover {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
